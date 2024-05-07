@@ -796,7 +796,7 @@ initial_window_height 1400
 #: as number of cells instead of pixels.
 
 # enabled_layouts *
-enabled_layouts horizontal, fat:bias=50;full_size=1;mirrored=true, *
+enabled_layouts fat:bias=50;full_size=1;mirrored=true, *
 #: The enabled window layouts. A comma separated list of layout names.
 #: The special value all means all layouts. The first listed layout
 #: will be used as the startup layout. Default configuration is all
@@ -2486,6 +2486,6 @@ background_opacity 0.90
 
 
 # BEGIN_KITTY_THEME
-# Catppuccin-Frappe
+# Catppuccin-Mocha
 include current-theme.conf
 # END_KITTY_THEME
